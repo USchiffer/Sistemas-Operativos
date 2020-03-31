@@ -1,0 +1,13 @@
+Como usarlo:
+
+Iniciar un terminal en la carpeta en donde se encuentran los archivos
+-Makefile
+-task_lister_lineal.c
+y después ejecutar los siguientes comandos:
+
+$ make                                  # Make module
+$ insmod tasks_lister_linear.ko         # Install module
+$ dmesg                                 # Show message
+$ rmmod tasks_lister_linear             # Remove module
+$ dmesg                                 # Show message
+$ dmesg -C                              # Clear message
